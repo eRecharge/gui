@@ -13,7 +13,7 @@
 			xsmall:	'(max-width: 480px)'
 		});
 	$(function(){
-				$('.button').click(function(){
+				$('.lnk').click(function(){
 				var page=$(this).attr('rel');
 				$('#container').load(page);
 				});
