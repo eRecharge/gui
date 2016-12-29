@@ -1,6 +1,0 @@
-<html><body>
-<h4>Tracker</h4>
-<p>Below tracker can be opened via <a href="http://tinyurl.com/serbia-mne" target="_blank">external link</a> for editing.</p>
-<iframe style="width:inherit;height:600px" src="https://docs.google.com/spreadsheets/d/1c1Ce00ZKZZ3uj13C-RQhWgLy1vNFXzPTN_BaNaaPphs/pubhtml?widget=true&amp;headers=false"></iframe>
-</body>
-</html>
