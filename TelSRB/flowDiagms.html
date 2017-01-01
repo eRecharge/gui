@@ -1,43 +1,33 @@
 <html>
 <head></head>
-<style type=text/css>
-.gallery{
-	list-style: none outside none;
-    margin: 100px;
-    padding: 0;
-}
-.gallery li {
-    float: left;
-	width:10%;
-    margin:10px;
-	pdding:10px;
-	display: block;
-    position: relative;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style type="text/css">
+div{
+	width:100%;
+	min-width:120px;
+	margin-bottom:10px;
 	text-align:center;
 }
-.gallery li img{
-	display:block;
-	height:100px;
-	width:inherit;
+div img{
 	margin-left:auto;
 	margin-right:auto;
-}
-.gallery li img:hover{
-	height:110px;
-	width:inherit;
-	transition:height .25s ease;
+	float:left;
+	width:100%;
+	height:100px;
 }
 </style>
 <body>
 <h4>Channel Wise Flow</h4>
-<ul class="gallery">
-<li><a href="TelSRB/images/API_SRB.png" target="_blank"><img src="TelSRB/images/API_SRB.png" title="API">API</li>
-<li><a href="TelSRB/images/USSD_SRB.png" target="_blank"><img src="TelSRB/images/USSD_SRB.png" title="USSD">USSD</li>
-<li><a href="TelSRB/images/GUI_SRB.png" target="_blank"><img src="TelSRB/images/GUI_SRB.png" title="GUI">GUI</li>
-<li><a href="TelSRB/images/MAPP_SRB.png" target="_blank"><img src="TelSRB/images/MAPP_SRB.png" title="Mobile APP">Mobile App</li>
-<li><a href="TelSRB/images/SMS_SRB.png" target="_blank"><img src="TelSRB/images/SMS_SRB.png" title="SMS">SMS</li>
-<li><a href="TelSRB/images/NAV_SRB.png" target="_blank"><img src="TelSRB/images/NAV_SRB.png" title="Navision API">DM API</li>
-</ul>
-	<p>thats all for now</p>
+<div class="container">
+<div class="row">
+	<div class="col-md-2 col-sm-4 col-xs-4"><a href="images/GUI_SRB.png" target="_blank" class="thumbnail"><img src="images/GUI_thumb.jpg" title="GUI" class="hidden-xs">GUI</a></div>
+	<div class="col-md-2 col-sm-4 col-xs-4"><a href="images/MAPP_SRB.png" target="_blank" class="thumbnail"><img src="images/MAPP_thumb.jpg" title="Mobile APP" class="hidden-xs">MOBILE APP</a></div>
+	<div class="col-md-2 col-sm-4 col-xs-4"><a href="images/SMS_SRB.png" target="_blank" class="thumbnail"><img src="images/SMS_thumb.jpg" title="SMS" class="hidden-xs">SMS</a></div>
+	<div class="col-md-2 col-sm-4 col-xs-4"><a href="images/USSD_SRB.png" target="_blank" class="thumbnail"><img src="images/USSD_thumb.jpg" title="USSD" class="hidden-xs">USSD</a></div>
+	
+	<div class="col-md-2 col-sm-4 col-xs-4"><a href="images/API_SRB.png" target="_blank" class="thumbnail"><img src="images/API_thumb.jpg" title="API" class="hidden-xs">API</a></div>
+	<div class="col-md-2 col-sm-4 col-xs-4"><a href="images/NAV_SRB.png" target="_blank" class="thumbnail"><img src="images/NAV_thumb.jpg" title="Navision API" class="hidden-xs">DM API</a></div>
+</div>
+</div>
 </body>
 </html>
